@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 1-16/4 * * *'
+    - cron: '0 1-16/8 * * *'
   workflow_dispatch:  
 permissions:
   contents: write
@@ -41,3 +41,14 @@ jobs:
           repository-name: crashgfw/free-airport-nodes
           ssh-key: ${{ secrets.DEPLOY_KEY2 }}
           commit-message: "Update free subscription links"
+      - name: update readme files
+        run: node generate_markdown2.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+      - name: Deploy free-proxy-nodes/free-nodes
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest3'
+          branch: 'main'
+          repository-name: free-proxy-nodes/free-nodes
+          ssh-key: ${{ secrets.DEPLOY_KEY3 }}
+          commit-message: "Update free subscription links"
+
