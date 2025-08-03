@@ -10,7 +10,7 @@ permissions:
 
 name: Test Docker Registry
 jobs:
-  test_registry:
+  update_subscriptions:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Docker
@@ -22,7 +22,7 @@ jobs:
       - run: docker info
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-      - name: Fetch subscriptions
+      - name: update subscriptions
         run: node fetch_subscriptions.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
       - name: Deploy crashgfw free-node-store
         uses: JamesIves/github-pages-deploy-action@v4
@@ -30,4 +30,13 @@ jobs:
           folder: 'dest' 
           repository-name: crashgfw/free-node-store
           ssh-key: ${{ secrets.DEPLOY_KEY }}
+          commit-message: "Update free subscription links"
+      - name: update readme files
+        run: node generate_markdown.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+      - name: Deploy crashgfw free-node-store
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest2' 
+          repository-name: crashgfw/free-node-store
+          ssh-key: ${{ secrets.DEPLOY_KEY2 }}
           commit-message: "Update free subscription links"
