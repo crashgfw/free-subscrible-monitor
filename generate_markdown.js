@@ -1,6 +1,23 @@
 const fs = require("fs");
 const Handlebars = require("handlebars");
 
+function encodeUnicode(str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        const code = str.charCodeAt(i);
+        if (code > 127) {
+            let unic = code.toString(16);
+            while (unic.length < 4) {
+                unic = "0" + unic;
+            }
+            result += "\\u" + unic;
+        } else {
+            result += str[i];
+        }
+    }
+    return result.replaceAll("/", "\\/");
+}
+
 function fetchSubscriptions(credentials, xboard_api_url) {
     console.log("Fetching subscriptions...");
 
