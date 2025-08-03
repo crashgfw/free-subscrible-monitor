@@ -33,10 +33,11 @@ jobs:
           commit-message: "Update free subscription links"
       - name: update readme files
         run: node generate_markdown.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
-      - name: Deploy crashgfw free-node-store
+      - name: Deploy crashgfw free-airport-nodes
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: 'dest2'
+          branch: 'main'
           repository-name: crashgfw/free-airport-nodes
           ssh-key: ${{ secrets.DEPLOY_KEY2 }}
           commit-message: "Update free subscription links"
