@@ -36,7 +36,7 @@ jobs:
       - name: Deploy crashgfw free-node-store
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: 'dest2' 
-          repository-name: crashgfw/free-node-store
+          folder: 'dest2'
+          repository-name: crashgfw/free-airport-nodes
           ssh-key: ${{ secrets.DEPLOY_KEY2 }}
           commit-message: "Update free subscription links"
