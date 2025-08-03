@@ -1,5 +1,5 @@
 const fs = require("fs");
-const outputfile = "dest/free-subscriptions2.json";
+const outputfile = "dest/free-subscriptions.json";
 
 function fetchSubscriptions(credentials, xboard_api_url) {
     console.log("Fetching subscriptions...");
