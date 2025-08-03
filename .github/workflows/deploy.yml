@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 1-16/4 * * *'
+  workflow_dispatch:  
+permissions:
+  contents: write
+
+name: Test Docker Registry
+jobs:
+  test_registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: "26.1.4"
+          channel: test
+      - run: docker version
+      - run: docker info
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Fetch subscriptions
+        run: node fetch_subscriptions.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+      - name: Deploy crashgfw free-node-store
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest' 
+          repository-name: crashgfw/free-node-store
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          commit-message: "Update free subscription links"
