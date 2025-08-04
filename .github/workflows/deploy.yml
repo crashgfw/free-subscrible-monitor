@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 
-name: Test Docker Registry
+name: update free subscriptions
 jobs:
   update_subscriptions:
     runs-on: ubuntu-latest
