@@ -1,8 +1,9 @@
-# 每日更新，{{ today }}免费公益 V2ray/Trojan/SS/Vless/Hysteria2 节点订阅 | 科学上网
+# free-nodes
+每日更新，{{ today }}免费公益 V2ray/Trojan/SS/Vless/Hysteria2 节点订阅 | 科学上网
 
 ## 1. **[稳联云](https://v2raya.net/goto/stablenet2)**
 
-<a href="https://v2raya.net/goto/stablenet2" target="_blank"><image src="https://proxyplazza.com/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
+<a href="/goto/stablenet2" target="_blank"><image src="https://v2raya.net/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
 
 - 主打速度快，节点稳老牌机场;
 - 有不限时套餐选择;
@@ -11,8 +12,6 @@
 stablenet–稳联云机场平台自2022年成立以来，便以专业的优质v2ray机场身份，为全球用户提供高质量的网络加速服务。被广泛应用于国际网络游戏加速、远程SOHO办公和跨境电商领域，深受游戏加速器、远程办公和跨境电商业务用户的青睐。
 
 稳联云机场平台主打速度快、节点稳定的特点。其套餐种类丰富，满足不同人群的需求。
-
-<!-- more -->
 
 稳联云机场平台的节点支持解锁Netflix、Hulu、TVB、Viu、HBO、BBC、YouTube Premium、abema.tv、Disney Plus+、Dazn等正版影视流媒体，为用户提供4K超清的精彩视觉体验。其节点覆盖区域广泛，包括香港、日本、新加坡、美国、英国、德国等地，并持续更新中。以其专业的服务、丰富的套餐种类为用户提供高质量的网络加速服务。
 
@@ -36,6 +35,7 @@ stablenet–稳联云机场平台自2022年成立以来，便以专业的优质v
 在这个部分，我们将为你介绍{{ today }}的免费V2ray/Trojan/SS/Vless/Hysteria2节点，涵盖美国 香港 - 日本 等多个地区的高速节点。最高测速是20.92MB/S，请注意免费流量为多人共享，具有速度不稳定，速率较低等特点。
 
 ```code
+
 # 如果以下订阅过期，请在免费机场页面 https://v2raya.net/categories/free-nodes/ 查询并使用最新订阅地址
 # V2ray订阅链接：
 

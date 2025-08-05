@@ -21,7 +21,7 @@ function encodeUnicode(str) {
 function fetchSubscriptions(credentials, xboard_api_url) {
     console.log("Fetching subscriptions...");
 
-    const templateSource = fs.readFileSync("readme-template2.md", "utf8");
+    const templateSource = fs.readFileSync("readme-template3.md", "utf8");
     const template = Handlebars.compile(templateSource);
 
     const subscriptions = [];
@@ -70,7 +70,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
                 subscriptions: subscriptions,
             });
 
-            fs.writeFileSync("dest2/README.md", markdownContent, "utf8");
+            fs.writeFileSync("dest3/README.md", markdownContent, "utf8");
             console.log("Markdown file generated successfully!");
         })
         .catch((error) => {
