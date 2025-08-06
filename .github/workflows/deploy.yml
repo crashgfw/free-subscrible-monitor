@@ -58,7 +58,7 @@ jobs:
         with:
           folder: 'dest4'
           branch: 'main'
-          repository-name: hiddifyapp350/free-nodes
+          repository-name: VoroninaYanina/free-nodes
           ssh-key: ${{ secrets.DEPLOY_KEY4 }}
           commit-message: "Update free subscription links"
 
