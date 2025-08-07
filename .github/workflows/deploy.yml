@@ -62,9 +62,7 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY4 }}
           commit-message: "Update free subscription links"
 
-name: update readme files
-jobs:
-  update_subscriptions:
+  update_readme_files:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Docker
