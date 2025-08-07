@@ -62,4 +62,27 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY4 }}
           commit-message: "Update free subscription links"
 
-
+name: update readme files
+jobs:
+  update_subscriptions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: "26.1.4"
+          channel: test
+      - run: docker version
+      - run: docker info
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: update readme files
+        run: node generate_markdown5.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+      - name: Deploy crashgfw free-airport-nodes
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest5'
+          branch: 'main'
+          repository-name: hysteria350/free-jichang
+          ssh-key: ${{ secrets.DEPLOY_KEY5 }}
+          commit-message: "Update free subscription links"
