@@ -46,7 +46,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             data.data.forEach((item) => {
                 subscriptions.push({
                     url:
-                        "https://serv011.20250710.top/api/v1/client/subscribe?token=" +
+                        "https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=" +
                         item.token,
                 });
             });

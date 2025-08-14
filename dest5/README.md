@@ -78,19 +78,19 @@
 # 如果以下订阅过期，请在免费机场页面 https://v2raya.net/categories/free-nodes/ 查询并使用最新订阅地址
 # V2ray订阅链接：
 
-https://serv011.20250710.top/api/v1/client/subscribe?token=d81c76dad05ec6417a83da8f422c3662
-https://serv011.20250710.top/api/v1/client/subscribe?token=c64daa338cc1e492ba9cd98ecc53803e
-https://serv011.20250710.top/api/v1/client/subscribe?token=2e764d5bdb3fbf6b09151e7c2af1a934
-https://serv011.20250710.top/api/v1/client/subscribe?token=69ac663029178c57f57eabef80b3347f
-https://serv011.20250710.top/api/v1/client/subscribe?token=2ffefcb832d2204c63526647fb558944
-https://serv011.20250710.top/api/v1/client/subscribe?token=719a59552850a5a4508a0ad5e0c31a1b
-https://serv011.20250710.top/api/v1/client/subscribe?token=75f9e7845741a007f52fce2279740145
-https://serv011.20250710.top/api/v1/client/subscribe?token=e7891e76d2be23308f74183447608563
-https://serv011.20250710.top/api/v1/client/subscribe?token=5647858721b2923b1956d9bcb6afce11
-https://serv011.20250710.top/api/v1/client/subscribe?token=0fc4efdd80aca0193134bd420340bc54
-https://serv011.20250710.top/api/v1/client/subscribe?token=d9f2d9160d77cdcd5cb76c46c988f1ab
-https://serv011.20250710.top/api/v1/client/subscribe?token=a01a43ff1a174a8d7e1cdee864c810ba
-https://serv011.20250710.top/api/v1/client/subscribe?token=dadb2c6d79b2e09ff0f3eae6649fc321
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=d81c76dad05ec6417a83da8f422c3662
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=c64daa338cc1e492ba9cd98ecc53803e
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=2e764d5bdb3fbf6b09151e7c2af1a934
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=69ac663029178c57f57eabef80b3347f
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=2ffefcb832d2204c63526647fb558944
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=719a59552850a5a4508a0ad5e0c31a1b
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=75f9e7845741a007f52fce2279740145
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=e7891e76d2be23308f74183447608563
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=5647858721b2923b1956d9bcb6afce11
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=0fc4efdd80aca0193134bd420340bc54
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=d9f2d9160d77cdcd5cb76c46c988f1ab
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=a01a43ff1a174a8d7e1cdee864c810ba
+https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=dadb2c6d79b2e09ff0f3eae6649fc321
 
 ```
 
