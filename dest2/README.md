@@ -1,9 +1,9 @@
 # free-nodes
 每日更新，2025 年 08 月 05 日免费公益 V2ray/Trojan/SS/Vless/Hysteria2 节点订阅 | 科学上网
 
-## 1. **[稳联云](https://v2raya.net/goto/stablenet2)**
+## 1. **[稳联云](https://shortlink181.github.io/1)**
 
-<a href="/goto/stablenet2" target="_blank"><image src="https://v2raya.net/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
+<a href="https://shortlink181.github.io/1" target="_blank"><image src="https://v2raya.net/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
 
 - 主打速度快，节点稳老牌机场;
 - 有不限时套餐选择;
@@ -28,7 +28,7 @@ stablenet–稳联云机场平台自2022年成立以来，便以专业的优质v
 - IEPL/IPLC基础专线: 最高速率200Mbps, 100G 流量/月，48元/月; 129.8元/季; 228元/半年; 428元/年; 总设备数不限;
 - IEPL/IPLC高级专线: 最高速率300Mbps, 200G 流量/月，88元/月; 251.8元/季; 475.2元/半年; 897元/年; 总设备数不限;
 
-<a href="https://v2raya.net/goto/stablenet2" target="_blank">稳联云 入口</a>
+<a href="https://shortlink181.github.io/1" target="_blank">稳联云 入口</a>
 
 ## 2. 免费订阅
 
