@@ -46,7 +46,7 @@
 - [Hiddify Next (Android) 安装与配置教程](https://proxyguide.org/hiddifyapp/android/)
 - [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.org/hiddifyapp/ios/)
 - [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.org/v2ray/v2rayN-install/)
-- [https://proxyguide.org/clash/clash-verge-on-linux/](https://proxyguide.org/clash/clash-verge-on-linux/)
+- [Clash Verge Rev 安装与使用教程](https://proxyguide.org/clash/clash-verge-on-linux/)
 
 ## 1.4. 🚀 为什么推荐使用[稳联云机场](https://st01.20250920.top/1)？
 
