@@ -38,7 +38,7 @@
 
 ## 1.3. 翻墙客户端推荐
 
-免费节点与以下支持最新协议的翻墙客户端结合使用效果最佳：
+免费节点结合以下支持最新协议的翻墙客户端使用效果最佳：
 
 - [Linux 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/linux/)
 - [MacOS 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/macos/)
