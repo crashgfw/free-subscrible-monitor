@@ -1,3 +1,8 @@
+/* 
+ *  run the scription locally
+ *  node update_subscriptions.js ${xboard_api_secret} ${xboard_api_url}
+ */
+
 function updateSubscriptions(credentials, xboard_api_url) {
     
     console.log("Updating subscriptions...");
@@ -97,3 +102,5 @@ const credentials = process.argv[2];
 const xboardurl = process.argv[3];
 
 updateSubscriptions(credentials, xboardurl);
+
+

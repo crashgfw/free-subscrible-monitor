@@ -1,3 +1,8 @@
+/* 
+ *  run the scription locally
+ *  node fetch_subscriptions.js ${xboard_api_secret} ${xboard_api_url}
+ */
+
 const fs = require("fs");
 const outputfile = "dest/free-subscriptions.json";
 

@@ -58,6 +58,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
         })
         .catch((error) => {
             console.error("Error:", error);
+            throw new Error(`Generating MD error`);
         });
 }
 
