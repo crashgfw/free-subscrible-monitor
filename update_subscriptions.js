@@ -3,7 +3,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
     console.log("Updating subscriptions...");
 
     fetch(
-        `${xboard_api_url}/api/v1/todiegfw/user/fetch?filter[0][key]=email&filter[0][condition]=%E6%A8%A1%E7%B3%8A&filter[0][value]=freea2&pageSize=15&current=1&total=3490`,
+        `${xboard_api_url}/fetch?filter[0][key]=email&filter[0][condition]=%E6%A8%A1%E7%B3%8A&filter[0][value]=freea1&pageSize=15&current=1&total=3490`,
         {
             method: "GET",
             headers: {
@@ -56,7 +56,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
                         
                     }
 
-                    fetch(`${xboard_api_url}/api/v1/todiegfw/user/update`, {
+                    fetch(`${xboard_api_url}/update`, {
                         method: "POST",
                         headers: {
                             Authorization: `${credentials}`,
@@ -66,7 +66,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
                     }).then((response) => {
                         console.log("reset uuid & subscription url for:", item.id);
                         fetch(
-                            `${xboard_api_url}/api/v1/todiegfw/user/resetSecret`,
+                            `${xboard_api_url}/resetSecret`,
                             {
                                 method: "POST",
                                 headers: {
