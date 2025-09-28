@@ -3,7 +3,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 1-16/8 * * *'
+    # Beijing Time: 8,12,16,22
+    - cron: '0 0,4,8,14 * * *'
   workflow_dispatch:  
 permissions:
   contents: write
@@ -22,6 +23,8 @@ jobs:
       - run: docker info
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: update expired date and traffic
+        run: node update_subscriptions.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
       - name: update subscriptions
         run: node fetch_subscriptions.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
       - name: Deploy crashgfw free-node-store
