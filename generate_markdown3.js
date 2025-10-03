@@ -1,5 +1,9 @@
 const fs = require("fs");
 const Handlebars = require("handlebars");
+const fetch = require("fetch-retry")(global.fetch, {
+    retries: 5,
+    retryDelay: 800,
+});
 
 function fetchSubscriptions(credentials, xboard_api_url) {
     console.log("Fetching subscriptions...");

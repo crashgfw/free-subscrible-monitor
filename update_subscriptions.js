@@ -2,6 +2,10 @@
  *  run the scription locally
  *  node update_subscriptions.js ${xboard_api_secret} ${xboard_api_url}
  */
+const fetch = require("fetch-retry")(global.fetch, {
+    retries: 5,
+    retryDelay: 800,
+});
 
 function updateSubscriptions(credentials, xboard_api_url) {
     console.log("Updating subscriptions...");
@@ -49,7 +53,6 @@ function updateSubscriptions(credentials, xboard_api_url) {
                     item.total_used >= item.transfer_enable ||
                     item.expired_at < today23Sec
                 ) {
-
                     if (item.total_used >= item.transfer_enable) {
                         console.log("update due to traffic used up ", item.id);
                         item.u = 0;
@@ -62,26 +65,32 @@ function updateSubscriptions(credentials, xboard_api_url) {
                         item.expired_at = nowSec + 15 * 24 * 60 * 60;
                     }
 
-                    fetch(`${xboard_api_url}/update`, {
-                        method: "POST",
-                        headers: {
-                            Authorization: `${credentials}`,
-                            "Content-Type": "application/json", // Adjust content type as needed
-                        },
-                        body: JSON.stringify(item),
-                    }).then((response) => {
-                        console.log(
-                            "reset uuid & subscription url for:",
-                            item.id
-                        );
-                        fetch(`${xboard_api_url}/resetSecret`, {
+                    fetch(
+                        `${xboard_api_url}/update`,
+                        {
                             method: "POST",
                             headers: {
                                 Authorization: `${credentials}`,
                                 "Content-Type": "application/json", // Adjust content type as needed
                             },
-                            body: JSON.stringify({ id: item.id }),
-                        })
+                            body: JSON.stringify(item),
+                        }
+                    ).then((response) => {
+                        console.log(
+                            "reset uuid & subscription url for:",
+                            item.id
+                        );
+                        fetch(
+                            `${xboard_api_url}/resetSecret`,
+                            {
+                                method: "POST",
+                                headers: {
+                                    Authorization: `${credentials}`,
+                                    "Content-Type": "application/json", // Adjust content type as needed
+                                },
+                                body: JSON.stringify({ id: item.id }),
+                            }
+                        )
                             .then((response) => {
                                 console.log(
                                     "reset uuid & subscription url successfully for",
