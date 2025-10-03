@@ -65,32 +65,26 @@ function updateSubscriptions(credentials, xboard_api_url) {
                         item.expired_at = nowSec + 15 * 24 * 60 * 60;
                     }
 
-                    fetch(
-                        `${xboard_api_url}/update`,
-                        {
+                    fetch(`${xboard_api_url}/update`, {
+                        method: "POST",
+                        headers: {
+                            Authorization: `${credentials}`,
+                            "Content-Type": "application/json", // Adjust content type as needed
+                        },
+                        body: JSON.stringify(item),
+                    }).then((response) => {
+                        console.log(
+                            "reset uuid & subscription url for:",
+                            item.id
+                        );
+                        fetch(`${xboard_api_url}/resetSecret`, {
                             method: "POST",
                             headers: {
                                 Authorization: `${credentials}`,
                                 "Content-Type": "application/json", // Adjust content type as needed
                             },
-                            body: JSON.stringify(item),
-                        }
-                    ).then((response) => {
-                        console.log(
-                            "reset uuid & subscription url for:",
-                            item.id
-                        );
-                        fetch(
-                            `${xboard_api_url}/resetSecret`,
-                            {
-                                method: "POST",
-                                headers: {
-                                    Authorization: `${credentials}`,
-                                    "Content-Type": "application/json", // Adjust content type as needed
-                                },
-                                body: JSON.stringify({ id: item.id }),
-                            }
-                        )
+                            body: JSON.stringify({ id: item.id }),
+                        })
                             .then((response) => {
                                 console.log(
                                     "reset uuid & subscription url successfully for",
@@ -108,7 +102,8 @@ function updateSubscriptions(credentials, xboard_api_url) {
             });
         })
         .catch((error) => {
-            console.error("Error:", error);
+            console.error("An error occurred:", error.message);
+            console.error("Stack trace:", error.stack);
             throw new Error(`Updating error`);
         });
 }
