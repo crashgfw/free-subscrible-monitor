@@ -33,7 +33,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             data.data.forEach((item) => {
                 subscriptions.push({
                     url:
-                        "https://vip17.20250920.top/api/v1/client/subscribe?token=" +
+                        "https://pub01.20251009.top/api/v1/client/subscribe?token=" +
                         item.token,
                 });
             });

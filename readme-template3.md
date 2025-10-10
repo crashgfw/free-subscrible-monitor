@@ -1,16 +1,16 @@
 # 1. 每日更新，{{ today }}免费公益 V2ray/Trojan/SS/Vless/Hysteria2 节点订阅 | 科学上网
 
-## 1.1. <a  href="https://st01.20250920.top/1" target="_blank">稳联云</a>
+## 1.1. <a  href="https://sl03.20251009.top/1" target="_blank">稳联云</a>
 
-<a href="https://st01.20250920.top/1" target="_blank"><image src="https://proxyplazza.com/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
+<a href="https://sl03.20251009.top/1" target="_blank"><image src="https://proxyplazza.com/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
 
 - 主打速度快，节点稳老牌机场;
 - 有不限时套餐选择;
 - youtube全天4K;
 
-[稳联云机场](https://st01.20250920.top/1)自2022年成立以来，便以专业的优质v2ray机场身份，为全球用户提供高质量的网络加速服务。被广泛应用于国际网络游戏加速、远程SOHO办公和跨境电商领域，深受游戏加速器、远程办公和跨境电商业务用户的青睐。
+[稳联云机场](https://sl03.20251009.top/1)自2022年成立以来，便以专业的优质v2ray机场身份，为全球用户提供高质量的网络加速服务。被广泛应用于国际网络游戏加速、远程SOHO办公和跨境电商领域，深受游戏加速器、远程办公和跨境电商业务用户的青睐。
 
-[稳联云机场](https://st01.20250920.top/1)主打速度快、节点稳定的特点。其套餐种类丰富，满足不同人群的需求。
+[稳联云机场](https://sl03.20251009.top/1)主打速度快、节点稳定的特点。其套餐种类丰富，满足不同人群的需求。
 
 <!-- more -->
 
@@ -29,19 +29,19 @@
 -   IEPL/IPLC 基础专线: 最高速率 200Mbps, 100G 流量/月，48 元/月; 129.8 元/季; 228 元/半年; 428 元/年; 总设备数不限;
 -   IEPL/IPLC 高级专线: 最高速率 300Mbps, 200G 流量/月，88 元/月; 251.8 元/季; 475.2 元/半年; 897 元/年; 总设备数不限;
 
-<a href="https://st01.20250920.top/1" target="_blank">稳联云 入口</a>
+<a href="https://sl03.20251009.top/1" target="_blank">稳联云 入口</a>
 
 ## 1.2. 翻墙客户端推荐
 
 免费节点结合以下支持最新协议的翻墙客户端使用效果最佳：
 
-- [Linux 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/linux/)
-- [MacOS 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/macos/)
-- [Windows 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/windows/)
-- [Hiddify Next (Android) 安装与配置教程](https://proxyguide.org/hiddifyapp/android/)
-- [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.org/hiddifyapp/ios/)
-- [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.org/v2ray/v2rayN-install/)
-- [clash verge rev](https://proxyguide.org/clash/clash-verge-on-linux/)
+- [Linux 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/linux/)
+- [MacOS 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/macos/)
+- [Windows 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/windows/)
+- [Hiddify Next (Android) 安装与配置教程](https://proxyguide.oeooe.cn/hiddifyapp/android/)
+- [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.oeooe.cn/hiddifyapp/ios/)
+- [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.oeooe.cn/v2ray/v2rayN-install/)
+- [clash verge rev](https://proxyguide.oeooe.cn/clash/clash-verge-on-linux/)
 
 ## 1.3. 免费订阅
 

@@ -1,11 +1,11 @@
 # 1. 免费 V2Ray / Trojan / Hysteria2 节点订阅（每日更新）【2025 最新】
 
-> 🎯 **推荐机场：[稳联云](https://st01.20250920.top/1) · 高速专线加速，高品质体验的正确打开方式！**
+> 🎯 **推荐机场：[稳联云](https://sl03.20251009.top/1) · 高速专线加速，高品质体验的正确打开方式！**
 
 - 📶 支持三网（电信/联通/移动）IEPL 专线中继
 - 🌍 全球节点覆盖：香港、日本、美国、台湾、新加坡等
 - 🚀 原生 IP 解锁 Netflix、YouTube、Spotify、TVer 等流媒体
-  👉 [点击立即注册体验稳联云](https://st01.20250920.top/1)
+  👉 [点击立即注册体验稳联云](https://sl03.20251009.top/1)
 
 ---
 
@@ -40,22 +40,22 @@
 
 免费节点结合以下支持最新协议的翻墙客户端使用效果最佳：
 
-- [Linux 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/linux/)
-- [MacOS 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/macos/)
-- [Windows 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/windows/)
-- [Hiddify Next (Android) 安装与配置教程](https://proxyguide.org/hiddifyapp/android/)
-- [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.org/hiddifyapp/ios/)
-- [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.org/v2ray/v2rayN-install/)
-- [Clash Verge Rev 安装与使用教程](https://proxyguide.org/clash/clash-verge-on-linux/)
+- [Linux 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/linux/)
+- [MacOS 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/macos/)
+- [Windows 上安装与配置 HiddifyApp](https://proxyguide.oeooe.cn/hiddifyapp/windows/)
+- [Hiddify Next (Android) 安装与配置教程](https://proxyguide.oeooe.cn/hiddifyapp/android/)
+- [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.oeooe.cn/hiddifyapp/ios/)
+- [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.oeooe.cn/v2ray/v2rayN-install/)
+- [Clash Verge Rev 安装与使用教程](https://proxyguide.oeooe.cn/clash/clash-verge-on-linux/)
 
-## 1.4. 🚀 为什么推荐使用[稳联云机场](https://st01.20250920.top/1)？
+## 1.4. 🚀 为什么推荐使用[稳联云机场](https://sl03.20251009.top/1)？
 
 虽然免费节点可临时使用，但它们：
 
 - 🟥 频繁失效 / 速度不稳定 / 容易封锁
 - 🟧 经常断流 / 影响正常体验
 
-**推荐使用[稳联云](https://st01.20250920.top/1)机场的原因：**
+**推荐使用[稳联云](https://sl03.20251009.top/1)机场的原因：**
 
 | 特性 | 免费节点 | 稳联云机场 |
 |------|----------|-------------|
@@ -64,7 +64,7 @@
 | 客服支持 | 无 | ✅ 工单/电报群支持 |
 | 稳定性 | 多人共享卡顿 | ✅ 独享，稳定高速 |
 
-👉 [点击立即注册体验稳联云](https://st01.20250920.top/1)
+👉 [点击立即注册体验稳联云](https://sl03.20251009.top/1)
 
 ---
 
