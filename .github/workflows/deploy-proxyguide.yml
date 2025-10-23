@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Beijing Time: 6,11,16,21
+    - cron: '0 22,3,8,13 * * *'
+  workflow_dispatch:  
+permissions:
+  contents: write
+
+name: update proxyguide jichang recoms
+jobs:
+  update_proxyguide_jichang_recommend_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: "26.1.4"
+          channel: test
+      - run: docker version
+      - run: docker info
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: update readme files
+        run: node generate_markdown6.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+      - name: Deploy proxyguide jichang-recommend
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest6'
+          branch: 'main'
+          repository-name: proxyguide/jichang-recommend
+          ssh-key: ${{ secrets.DEPLOY_KEY6 }}
+          commit-message: "Update free subscription links"
