@@ -107,7 +107,7 @@ jobs:
       - name: Deploy proxyguide jichang-recommend
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: 'dest5'
+          folder: 'dest6'
           branch: 'main'
           repository-name: proxyguide/jichang-recommend
           ssh-key: ${{ secrets.DEPLOY_KEY6 }}
