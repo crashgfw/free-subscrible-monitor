@@ -2,9 +2,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # Beijing Time: 6,11,16,21
-    - cron: '0 22,3,8,13 * * *'
   workflow_dispatch:  
 permissions:
   contents: write
