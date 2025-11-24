@@ -18,7 +18,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
         {
             method: "GET",
             headers: {
-                Authorization: `${credentials}`,
+                Authorization: `Bearer ${credentials}`,
                 "Content-Type": "application/json", // Adjust content type as needed
             },
         }
@@ -33,7 +33,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             data.data.forEach((item) => {
                 subscriptions.push({
                     url:
-                        "https://fn02.20251117.top/api/v1/client/subscribe?token=" +
+                        "https://fn03.20251117.top/s/" +
                         item.token,
                 });
             });

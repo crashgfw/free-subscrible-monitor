@@ -15,7 +15,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
         {
             method: "GET",
             headers: {
-                Authorization: `${credentials}`,
+                Authorization: `Bearer ${credentials}`,
                 "Content-Type": "application/json", // Adjust content type as needed
             },
         }
@@ -68,7 +68,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
                     fetch(`${xboard_api_url}/update`, {
                         method: "POST",
                         headers: {
-                            Authorization: `${credentials}`,
+                            Authorization: `Bearer ${credentials}`,
                             "Content-Type": "application/json", // Adjust content type as needed
                         },
                         body: JSON.stringify(item),
@@ -80,7 +80,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
                         fetch(`${xboard_api_url}/resetSecret`, {
                             method: "POST",
                             headers: {
-                                Authorization: `${credentials}`,
+                                Authorization: `Bearer ${credentials}`,
                                 "Content-Type": "application/json", // Adjust content type as needed
                             },
                             body: JSON.stringify({ id: item.id }),
