@@ -1,5 +1,7 @@
-/* 
+/*
  *  run the scription locally
+ *  export xboard_api_secret="xxx"
+ *  export xboard_api_url="https://example.com"
  *  node fetch_subscriptions.js ${xboard_api_secret} ${xboard_api_url}
  */
 
@@ -15,16 +17,26 @@ function fetchSubscriptions(credentials, xboard_api_url) {
 
     const subscriptions = [];
 
-    fetch(
-        `${xboard_api_url}/fetch?filter[0][key]=email&filter[0][condition]=%E6%A8%A1%E7%B3%8A&filter[0][value]=freea1&pageSize=15&current=1&total=3490`,
-        {
-            method: "GET",
-            headers: {
-                Authorization: `Bearer ${credentials}`,
-                "Content-Type": "application/json", // Adjust content type as needed
+    const params = {
+        pageSize: 20,
+        current: 1,
+        filter: [
+            {
+                id: "email",
+                value: "freea1",
             },
-        }
-    )
+        ],
+        sort: [],
+    };
+
+    fetch(`${xboard_api_url}/fetch`, {
+        method: "POST",
+        headers: {
+            Authorization: `Bearer ${credentials}`,
+            "Content-Type": "application/json", // Adjust content type as needed
+        },
+        body: JSON.stringify(params),
+    })
         .then((response) => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -34,9 +46,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
         .then((data) => {
             data.data.forEach((item) => {
                 subscriptions.push({
-                    url:
-                        "https://fn03.20251117.top/s/" +
-                        item.token,
+                    url: "https://fn03.20251117.top/s/" + item.token,
                 });
             });
 

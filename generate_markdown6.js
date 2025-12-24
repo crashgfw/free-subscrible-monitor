@@ -1,3 +1,10 @@
+/*
+ *  run the scription locally
+ *  export xboard_api_secret="xxx"
+ *  export xboard_api_url="https://example.com"
+ *  node generate_markdown6.js ${xboard_api_secret} ${xboard_api_url}
+ */
+
 const fs = require("fs");
 const Handlebars = require("handlebars");
 const fetch = require("fetch-retry")(global.fetch, {

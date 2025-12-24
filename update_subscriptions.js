@@ -12,16 +12,26 @@ const fetch = require("fetch-retry")(global.fetch, {
 function updateSubscriptions(credentials, xboard_api_url) {
     console.log("Updating subscriptions...");
 
-    fetch(
-        `${xboard_api_url}/fetch?filter[0][key]=email&filter[0][condition]=%E6%A8%A1%E7%B3%8A&filter[0][value]=freea1&pageSize=15&current=1&total=3490`,
-        {
-            method: "GET",
-            headers: {
-                Authorization: `Bearer ${credentials}`,
-                "Content-Type": "application/json", // Adjust content type as needed
+    const params = {
+        pageSize: 20,
+        current: 1,
+        filter: [
+            {
+                id: "email",
+                value: "freea1",
             },
-        }
-    )
+        ],
+        sort: [],
+    };
+
+    fetch(`${xboard_api_url}/fetch`, {
+        method: "POST",
+        headers: {
+            Authorization: `Bearer ${credentials}`,
+            "Content-Type": "application/json", // Adjust content type as needed
+        },
+        body: JSON.stringify(params),
+    })
         .then((response) => {
             if (!response.ok) {
                 console.error(response.status);
@@ -56,13 +66,13 @@ function updateSubscriptions(credentials, xboard_api_url) {
                     item.expired_at < today23Sec
                 ) {
                     if (item.total_used >= item.transfer_enable) {
-                        console.log("update due to traffic used up ", item.id);
+                        console.log("update record due to traffic used up ", item.id);
                         item.u = 0;
                         item.d = 0;
                     }
 
                     if (item.expired_at < today23Sec) {
-                        console.log("update due to expiring for ", item.id);
+                        console.log("update record due to expiring for ", item.id);
                         // 在当前时间基础上增加 15天（15 * 24 * 60 * 60 秒）
                         item.expired_at = nowSec + 15 * 24 * 60 * 60;
                     }
@@ -107,6 +117,9 @@ function updateSubscriptions(credentials, xboard_api_url) {
             console.error("An error occurred:", error.message);
             console.error("Stack trace:", error.stack);
             throw new Error(`Updating error`);
+        })
+        .finally(() => {
+            console.info("update is done!")
         });
 }
 
