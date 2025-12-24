@@ -40,13 +40,13 @@
 
 免费节点结合以下支持最新协议的翻墙客户端使用效果最佳：
 
-- [Linux 上安装与配置 HiddifyApp](https://proxy.oeooe.cn/hiddifyapp/linux/)
-- [MacOS 上安装与配置 HiddifyApp](https://proxy.oeooe.cn/hiddifyapp/macos/)
-- [Windows 上安装与配置 HiddifyApp](https://proxy.oeooe.cn/hiddifyapp/windows/)
-- [Hiddify Next (Android) 安装与配置教程](https://proxy.oeooe.cn/hiddifyapp/android/)
-- [Hiddify Next (iOS) 安装与配置教程](https://proxy.oeooe.cn/hiddifyapp/ios/)
-- [Windows 平台 v2rayN 安装与配置教程](https://proxy.oeooe.cn/v2ray/v2rayN-install/)
-- [Clash Verge Rev 安装与使用教程](https://proxy.oeooe.cn/clash/clash-verge-on-linux/)
+- [Linux 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/linux/)
+- [MacOS 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/macos/)
+- [Windows 上安装与配置 HiddifyApp](https://proxyguide.org/hiddifyapp/windows/)
+- [Hiddify Next (Android) 安装与配置教程](https://proxyguide.org/hiddifyapp/android/)
+- [Hiddify Next (iOS) 安装与配置教程](https://proxyguide.org/hiddifyapp/ios/)
+- [Windows 平台 v2rayN 安装与配置教程](https://proxyguide.org/v2ray/v2rayN-install/)
+- [Clash Verge Rev 安装与使用教程](https://proxyguide.org/clash/clash-verge-on-linux/)
 
 ## 1.4. 🚀 为什么推荐使用[稳联云机场](https://fk01.20251109.top/1)？
 
