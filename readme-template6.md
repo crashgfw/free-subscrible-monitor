@@ -1,6 +1,6 @@
 # 2025 年性价比机场推荐 {{ today }} 更新
 
-## 1. **[稳联云](https://fk01.20251109.top/2)**
+## 1. **[稳联云](https://fk01.20251109.top/7)**
 
 <a href="https://fk01.20251109.top/7" target="_blank"><image src="https://v2raya.net/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
 

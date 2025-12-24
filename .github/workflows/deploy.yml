@@ -55,7 +55,7 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY3 }}
           commit-message: "Update free subscription links"
       - name: update hiddifyapp350 readme files 
-        run: node generate_markdown4.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
+        run: node generate_markdown4.js ${{ secrets.xboard_api_secret }} ${{ secrets.s }}
       - name: Deploy free-proxy-nodes/free-nodes
         uses: JamesIves/github-pages-deploy-action@v4
         with:

@@ -1,9 +1,11 @@
 /*
  *  run the scription locally
+ *  export xboard_api_secret="xxx"
+ *  export xboard_api_url="https://example.com"
  *  node update_subscriptions.js ${xboard_api_secret} ${xboard_api_url}
  */
 const fetch = require("fetch-retry")(global.fetch, {
-    retries: 5,
+    retries: 8,
     retryDelay: 800,
 });
 
