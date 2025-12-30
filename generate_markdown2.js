@@ -68,7 +68,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             data.data.forEach((item) => {
                 subscriptions.push({
                     url:
-                        "https://fn03.20251117.top/s/" +
+                        "https://fn04.20251117.top/s/" +
                         item.token,
                 });
             });
