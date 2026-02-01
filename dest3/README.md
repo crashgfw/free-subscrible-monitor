@@ -1,8 +1,8 @@
 # 每日更新，2026 年 01 月 01 日免费公益 V2ray/Trojan/SS/Vless/Hysteria2 节点订阅 | 科学上网
 
-## 1. <a  href="https://f1.st0103.top/1" target="_blank">稳联云</a>
+## 1. <a  href="https://f2.st0103.top/1" target="_blank">稳联云</a>
 
-<a href="https://f1.st0103.top/1" target="_blank"><image src="https://proxyplazza.com/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
+<a href="https://f2.st0103.top/1" target="_blank"><image src="https://proxyplazza.com/images/stablenet/logo.png" style="width: 40%" title="稳联云 VPN 全球加速机场" alt="稳联云 VPN 全球加速机场"/> </a>
 
 - 主打速度快，节点稳老牌机场;
 - 有不限时套餐选择;
@@ -29,7 +29,7 @@
 -   IEPL/IPLC 基础专线: 最高速率 200Mbps, 100G 流量/月，48 元/月; 129.8 元/季; 228 元/半年; 428 元/年; 总设备数不限;
 -   IEPL/IPLC 高级专线: 最高速率 300Mbps, 200G 流量/月，88 元/月; 251.8 元/季; 475.2 元/半年; 897 元/年; 总设备数不限;
 
-<a href="https://f1.st0103.top/1" target="_blank">稳联云 入口</a>
+<a href="https://f2.st0103.top/1" target="_blank">稳联云 入口</a>
 
 ## 2. 免费订阅
 
