@@ -14,9 +14,7 @@ const fetch = require("fetch-retry")(global.fetch, {
 
 function fetchSubscriptions(credentials, xboard_api_url) {
     console.log("Fetching subscriptions...");
-
     const subscriptions = [];
-
     const params = {
         pageSize: 20,
         current: 1,
@@ -74,7 +72,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             console.log("Data was saved to " + outputfile);
         })
         .catch((error) => {
-            console.error("Error:", error);
+            //console.error("Error:", error);
             throw new Error(`fetching error`);
         });
 }
