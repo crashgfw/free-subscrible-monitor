@@ -78,7 +78,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             console.log("Markdown file generated successfully!");
         })
         .catch((error) => {
-            console.error("Error:", error);
+            //console.error("Error:", error);
             throw new Error(`Generating MD error`);
         });
 }
