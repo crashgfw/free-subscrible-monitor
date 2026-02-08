@@ -7,8 +7,8 @@
 const fs = require("fs");
 const Handlebars = require("handlebars");
 const fetch = require("fetch-retry")(global.fetch, {
-    retries: 5,
-    retryDelay: 800,
+    retries: 8,
+    retryDelay: 1200,
 });
 
 function encodeUnicode(str) {
@@ -96,7 +96,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             console.log("Markdown file generated successfully!");
         })
         .catch((error) => {
-            console.error("Error:", error);
+            // console.error("Error:", error);
             throw new Error(`Generating MD error`);
         });
 }

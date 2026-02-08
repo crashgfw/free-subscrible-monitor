@@ -6,7 +6,7 @@
  */
 const fetch = require("fetch-retry")(global.fetch, {
     retries: 8,
-    retryDelay: 800,
+    retryDelay: 1200,
 });
 
 function updateSubscriptions(credentials, xboard_api_url) {
