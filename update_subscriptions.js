@@ -28,6 +28,7 @@ function updateSubscriptions(credentials, xboard_api_url) {
         method: "POST",
         headers: {
             Authorization: `Bearer ${credentials}`,
+            'User-Agent': 'Github-Action-v1-us001',
             "Content-Type": "application/json", // Adjust content type as needed
         },
         body: JSON.stringify(params),

@@ -35,6 +35,7 @@ function fetchSubscriptions(credentials, xboard_api_url) {
             method: "POST",
             headers: {
                 Authorization: `Bearer ${credentials}`,
+                'User-Agent': 'Github-Action-v1-gm005',
                 "Content-Type": "application/json", // Adjust content type as needed
             },
             body: JSON.stringify(params),
