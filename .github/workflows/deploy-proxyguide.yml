@@ -19,7 +19,7 @@ jobs:
       - run: docker version
       - run: docker info
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: update readme files
         run: node generate_markdown6.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
       - name: Deploy proxyguide jichang-recommend
