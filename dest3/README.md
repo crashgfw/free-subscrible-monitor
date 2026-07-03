@@ -60,6 +60,6 @@ https://vip02.stableconnect.cloud/api/v1/client/subscribe?token=27bad9852f4a5701
 这样可以减少连接失败的情况，提高使用效率。
 尽量选择较新的节点，确保连接的稳定性和速度。
 
-**如果发现节点全部显示 timeout 或 not stable，即表明链接失效了**。
+**如果发现节点全部显示 timeout 或 not stable，即表明订阅地址失效了**。
 
 以上介绍了2026 年 01 月 01 日的V2ray/Trojan/SS/Vless/Hysteria2机场推荐、订阅链接以及订阅节选，以上内容每日更新，保证准确的时效性，为您的网络连接提供可靠支持，感谢阅读。
