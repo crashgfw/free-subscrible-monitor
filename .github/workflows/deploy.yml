@@ -56,12 +56,12 @@ jobs:
           commit-message: "Update free subscription links"
       - name: update hiddifyapp350 readme files 
         run: node generate_markdown4.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
-      - name: Deploy free-proxy-nodes/free-nodes
+      - name: Deploy hiddifyapp350/free-nodes
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: 'dest4'
           branch: 'main'
-          repository-name: VoroninaYanina/free-nodes
+          repository-name: hiddifyapp350/free-nodes
           ssh-key: ${{ secrets.DEPLOY_KEY4 }}
           commit-message: "Update free subscription links"
 
@@ -80,7 +80,7 @@ jobs:
         uses: actions/checkout@v6
       - name: update readme files
         run: node generate_markdown5.js ${{ secrets.xboard_api_secret }} ${{ secrets.xboard_api_url }}
-      - name: Deploy hysteria350 free-jichang
+      - name: Deploy hysteria350/free-jichang
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: 'dest5'
