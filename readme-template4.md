@@ -46,7 +46,9 @@
 - [Hiddify Next (Android) 安装与配置教程](https://docs.proxyguide.org/hiddifyapp/android/)
 - [Hiddify Next (iOS) 安装与配置教程](https://docs.proxyguide.org/hiddifyapp/ios/)
 - [Windows 平台 v2rayN 安装与配置教程](https://docs.proxyguide.org/v2ray/v2rayN-install/)
-- [Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-on-linux/)
+- [Linux 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-on-linux/)
+- [Macos 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-rev-on-macos/)
+- [Windows 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-rev-on-windows/)
 
 ## 1.4. 🚀 为什么推荐使用[稳联云机场](https://f2.st0103.top/1)？
 
