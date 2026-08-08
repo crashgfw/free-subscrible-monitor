@@ -27,7 +27,7 @@
 
 <a href="https://f2.st0103.top/7" target="_blank">稳联云 入口</a>
 
-## 2. CyberGuard 机场
+## 2. [CyberGuard 机场](https://f2.st0103.top/12)
 
 ![CyberGuard 机场官网](https://v2raya.net/images/CyberGuard/CyberGuard-website.webp "CyberGuard 机场官网")
 
@@ -39,10 +39,41 @@ CyberGuard 机场支持主流的 Clash、Shadowrocket、Quantumult X、Stash 等
 
 付款方式支持支付宝和微信。
 
-[CyberGuard 入口](https://www.cyberguard.best/#/register?code=tZX1nf5Q)
+[CyberGuard 入口](https://f2.st0103.top/12)
 
+## 3. [沃迪加速](https://f2.st0103.top/13)
 
-## 3. **WgetCloud**
+*   四年老机场
+    
+*   稳定ChatGPT
+    
+*   精品线路，超低价格
+    
+*   追求极致性价比，奈非、迪士尼等流媒体全解锁。
+    
+
+沃迪加速提供香港,日本,台湾,美国, 印度, 英国, 法国等地区节点，全节点中转, 支持所有流媒体，支持ChatGPT，保护您的隐私安全。
+
+**套餐价格：**
+
+*   初级套餐: 最高速率100Mbps, 不限设备数，150G 流量/月，12.8元/月; 36.6元/季度; 67.6元/半年 ； 127.8元/年;
+    
+*   标准套餐: 最高速率200Mbps, 不限设备数，300G 流量/月，23.8元/月; 69.6元/季度; 138.8元/半年 ； 266元/年;
+    
+*   高级套餐: 最高速率300Mbps, 不限设备数，500G 流量/月，42元/月; 119元/季度; 226.8元/半年 ； 428元/年;
+    
+*   豪华套餐: 最高速率400Mbps, 不限设备数，800G 流量/月，68元/月; 193.8元/季度; 367.2元/半年 ； 693.6元/年;
+    
+*   不限时 - Lite：最高速率200Mbps, 不限设备数 共300G， 价格 72.8元 ，不清零，用完为止;
+    
+*   不限时 - Standard：最高速率300Mbps, 不限设备数 共500G, 价格 116元 ，不清零，用完为止;
+    
+*   不限时 - Deluxe：最高速率500Mbps, 不限设备数 共800G, 价格 168元 ，不清零，用完为止;
+    
+
+[沃迪加速 入口](https://f2.st0103.top/13)
+
+## 4. **[WgetCloud]((https://f2.st0103.top/6))**
 
 ![WgetCloud 全球加速机场VPN](/WgetCloud-VPN.webp "WgetCloud 全球加速机场VPN")
 
@@ -76,9 +107,9 @@ WgetCloud 针对新用户有 8 折优惠，欲购从速。
 
 调整后的年付订阅价格
 
-[WgetCloud 机场官网](https://j8doba2sodptvzprvmcb.wgetcloud.org?code=2U0tWJ)
+[WgetCloud 机场官网](https://f2.st0103.top/6)
 
-## 4. [耐思云](https://minlp57whuv2fqta.nc15.cc/#/register?code=dOjluwuW)
+## 5. [耐思云](https://f2.st0103.top/5)
 
 -   全线路多入口 BGP 隧道中转
 -   优质 SS/SSR 机场
@@ -92,4 +123,4 @@ WgetCloud 针对新用户有 8 折优惠，欲购从速。
 -   高级套餐：￥ 35/月、200/半年、350/年，200G 流量/月;
 -   500GB 不限时：￥ 100/500GB。
 
-[耐思云机场入口](https://minlp57whuv2fqta.nc15.cc/#/register?code=dOjluwuW)
+[耐思云机场入口](https://f2.st0103.top/5)
