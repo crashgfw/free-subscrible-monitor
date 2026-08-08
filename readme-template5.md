@@ -34,6 +34,19 @@
 
 ```
 
+免费节点结合以下支持最新协议的翻墙客户端使用效果最佳：
+
+- [Linux 上安装与配置 HiddifyApp](https://docs.proxyguide.org/hiddifyapp/linux/)
+- [MacOS 上安装与配置 HiddifyApp](https://docs.proxyguide.org/hiddifyapp/macos/)
+- [Windows 上安装与配置 HiddifyApp](https://docs.proxyguide.org/hiddifyapp/windows/)
+- [Hiddify Next (Android) 安装与配置教程](https://docs.proxyguide.org/hiddifyapp/android/)
+- [Hiddify Next (iOS) 安装与配置教程](https://docs.proxyguide.org/hiddifyapp/ios/)
+- [Windows 平台 v2rayN 安装与配置教程](https://docs.proxyguide.org/v2ray/v2rayN-install/)
+- [Android 平台上 v2rayNG 安装与使用教程](https://docs.proxyguide.org/v2ray/v2rayNG-install/)
+- [Linux 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-on-linux/)
+- [Macos 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-rev-on-macos/)
+- [Windows 平台 Clash Verge Rev 安装与使用教程](https://docs.proxyguide.org/clash/clash-verge-rev-on-windows/)
+
 ---
 
 ## 四、推荐升级 —— [稳联云付费机场服务](https://f2.st0103.top/1)
